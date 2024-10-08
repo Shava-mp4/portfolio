@@ -1,16 +1,41 @@
 html {
-  background-color: rgb(176, 142, 192);
+  background-color: rgb(37, 37, 37);
 }
 
 body {
-  background-color: rgb(255, 249, 243);
+  background-color: rgb(76, 80, 75);
+  color: white;
   width: 700px;
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: center;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+button {
+  border: 3px solid black;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  border-radius: 15px;
+  width: 200px;
+  height: 260px;
   margin: auto;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(38, 54, 39);
+  color: rgb(197, 212, 193);
+  border-color: rgb(173, 187, 173);
+}
+
+table {
   padding: auto;
+  margin: auto;
 }
 
 img {
   width: 150px;
+  border-radius: 14px;
 }
